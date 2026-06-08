@@ -26,7 +26,7 @@ from collections import defaultdict
 random.seed(42)
 
 # ── File discovery ────────────────────────────────────────────────────
-SEARCH = [os.getcwd(), '/home/polybot/polymarket-bot',
+SEARCH = [os.getcwd(), '.',
           os.path.dirname(os.path.abspath(__file__))]
 
 def find(name):
