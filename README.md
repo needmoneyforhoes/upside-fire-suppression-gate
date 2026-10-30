@@ -45,3 +45,8 @@ Reads recorded tick data from the private `polymarket-data` repo:
 - `market_recap_history.jsonl`: per-fire recap records, used by `up_gate_backtest.py`.
 
 Pass the data dir or file path as an argument, or run from a directory where the files are discoverable. `backtest` and `scanner` also search the working dir and `$DATA_DIR`. Data files are gitignored and never committed.
+
+## Feedback
+
+Suggestions, improvements, or something not working? Please
+[open an issue](https://github.com/needmoneyforhoes/upside-fire-suppression-gate/issues/new). Pull requests are welcome too.
